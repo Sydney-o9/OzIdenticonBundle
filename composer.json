@@ -11,6 +11,12 @@
             "homepage": "http://github.com/Sydney-o9"
         }
     ],
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "git@github.com:Sydney-o9/Identicon.git"
+      }
+    ],
     "require": {
         "php":                      ">=5.3.0",
         "symfony/framework-bundle": ">=2.1,<2.3-dev",
