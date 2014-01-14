@@ -5,29 +5,38 @@
     "keywords": ["symfony", "bundle", "identicon", "avatar", "image"],
     "homepage": "http://github.com/Sydney-o9/OzIdenticonBundle",
     "license": "MIT",
+
     "authors": [
         {
             "name": "Sydney-o9",
             "homepage": "http://github.com/Sydney-o9"
         }
     ],
+
     "repositories": [
       {
         "type": "vcs",
         "url": "git@github.com:Sydney-o9/Identicon.git"
       }
     ],
+
     "require": {
         "php":                      ">=5.3.0",
         "symfony/framework-bundle": ">=2.1,<2.3-dev",
         "oz/identicon":             "dev-master"
     },
+
     "require-dev": {
     },
+
     "minimum-stability": "dev",
+
     "autoload": {
         "psr-0": { "Oz\\IdenticonBundle": "" }
     },
+
+    "target-dir": "Oz/NotificationBundle",
+
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
