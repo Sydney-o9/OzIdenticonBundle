@@ -35,7 +35,7 @@
         "psr-0": { "Oz\\IdenticonBundle": "" }
     },
 
-    "target-dir": "Oz/NotificationBundle",
+    "target-dir": "Oz/IdenticonBundle",
 
     "extra": {
         "branch-alias": {
