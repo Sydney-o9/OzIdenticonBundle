@@ -1,0 +1,30 @@
+{
+    "name": "oz/identicon-bundle",
+    "type": "symfony-bundle",
+    "description": "Create unique avatars using identicon library.",
+    "keywords": ["symfony", "bundle", "identicon", "avatar", "image"],
+    "homepage": "http://github.com/Sydney-o9/OzIdenticonBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sydney-o9",
+            "homepage": "http://github.com/Sydney-o9"
+        }
+    ],
+    "require": {
+        "php":                      ">=5.3.0",
+        "symfony/framework-bundle": ">=2.1,<2.3-dev",
+        "yzalis/identicon": "1.0-dev"
+    },
+    "require-dev": {
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": { "Oz\\IdenticonBundle": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
